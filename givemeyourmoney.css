@@ -1,0 +1,138 @@
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(0, 238, 255);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Mouse hover button colour */
+  li a:hover {
+    background-color: rgb(255, 208, 100);
+  }
+  /* Mouse hover button colour*/
+  li a:hover:not(.active) {
+    background-color: rgb(100, 238, 255);
+  }
+  /* Button border colour */
+  li {
+    border-right: 1px solid white;
+  }
+  li:last-child {
+    border-right: none;
+  }
+
+
+  h1, h2 {
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+  }
+  p {
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+  }
+
+
+
+  input{
+    width: 40%;
+  }
+  label{
+    font-family: Tahoma, sans-serif;
+  }
+  input[type=radio] {
+    width: 20px;
+  }
+  /*underlines for user and email*/
+  input[type=text], [type=email] {
+    padding: 2px 2px;
+    margin: 8px 0px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 238, 255);
+    }
+  /*text box outline*/
+  textarea{
+    border: 2px solid  rgb(0, 238, 255);
+  }
+  input[type=submit] {
+    background-color: rgb(0, 238, 255);
+    color: white;
+    width: 30%;
+  }
+  input[type=radio] + label {
+    color:  rgb(0, 238, 255);
+  }
+
+
+  #about {
+    border: solid gold;
+    background-color: rgb(150, 238, 255);
+    width: 35%;
+    margin: 30px 100px;
+  }
+  #facepic {
+    background-image: url(IMG_3865.jpg);
+    width: 450px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  #whatido {
+    background-image: url(https://thedailyblog.co.nz/wp-content/uploads/2015/07/money.jpg);
+    border: solid  rgb(0, 238, 255);
+    padding: 50px;
+    margin: 20px;
+    position: sticky;
+    color: gold;
+  }
+  #contactme {
+    background-image: url();
+    border: solid  rgb(0, 238, 255);
+    padding: 50px;
+    margin: 20px;
+    position: sticky;
+  }
+
+
+  .active {
+    background-color:  rgb(255, 208, 0);
+  }
+  .about {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+  }
+  .whatido {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+  }
+  .contactme {
+    align-items: center;
+    width: 100%;
+    height: 50%;
+  }
+  .center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+  }
+  
+
