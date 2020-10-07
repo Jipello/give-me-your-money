@@ -61,8 +61,7 @@
   input[type=text], [type=email] {
     padding: 2px 2px;
     margin: 8px 0px;
-    border: none;
-    border-bottom: 2px solid rgb(0, 238, 255);
+    border: 2px solid rgb(0, 238, 255);
     }
   /*text box outline*/
   textarea{
@@ -93,15 +92,15 @@
     background-position: right;
   }
   #whatido {
-    background-image: url(https://thedailyblog.co.nz/wp-content/uploads/2015/07/money.jpg);
+    background-color: rgb(255, 208, 100);
     border: solid  rgb(0, 238, 255);
     padding: 50px;
     margin: 20px;
     position: sticky;
-    color: gold;
+    color: black;
   }
   #contactme {
-    background-image: url();
+    background-color: rgb(255, 208, 100);
     border: solid  rgb(0, 238, 255);
     padding: 50px;
     margin: 20px;
